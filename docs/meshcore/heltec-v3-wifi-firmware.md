@@ -1,6 +1,5 @@
 
 # Compiling MeshCore Firmware with Wi-Fi Enabled
-
 **Device:** These instructions are specifically for the **Heltec V3** device.  
 **OS:** This guide was completed on **Red Hat 9.6**.  
 

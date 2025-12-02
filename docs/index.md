@@ -1,6 +1,5 @@
 
 # Welcome to Greater Ottawa Mesh Enthusiasts!
-
 * [Join us on Discord!](https://discord.gg/WSyNd8SfNr)
 
 ## About
@@ -44,45 +43,42 @@ Pick a build that fits your needs, then flash MeshCore companion firmware to the
 From there, you can explore repeaters builds and mounting options to expand coverage and strengthen the Ottawa mesh.  
 
 ### Getting Started
-
-* [[MeshCore/RolesExplained|Roles Explained]]
-* [[MeshCore/F.A.Q|F.A.Q]]
+* [Roles Explained](meshcore/hardware-overview.md)
+* [F.A.Q](meshcore/meshcore-faq.md)
 
 ### Hardware
-
-* [[MeshCore/CompanionNodes|Companion Nodes]]
-* [[MeshCore/Repeaters|Repeaters Nodes]]
-* [[MeshCore/RepeaterMountingOptions|Mounting Options]]
+* [Companion Nodes](meshcore/companion-nodes-antenna.md)
+* [Repeaters Nodes](meshcore/rak-based-repeaters-note.md)
+* [Mounting Options](meshcore/repeater-mounting-options.md)
 
 ### Configuration
-* [[MeshCore/FlashCompanion| Flashing a companion node]]
-* [[MeshCore/FlashRepeater| Flashing a Repeater node]]
-* [[MeshCore/FlashRoom| Flashing a room server]]
-* [[MeshCore/BuildRepeaterRec|Recommended Repeater Build Instructions]]
-* [[MeshCore/MeshCore2Discord| MeshCore to Discord using Meshcore-HA]]
-* [[MeshCore/Heltekv3Wifi | Compiling Wifi Firmware for Heltek v3]]
-* [[MeshCore/RAKCustomDisplay | Compiling RAK4631 firmware with a Custom Display]]
+* [Flashing a companion node](meshcore/flash-companion-node.md)
+* [Flashing a Repeater node](meshcore/flash-repeater-node.md)
+* [Flashing a room server](meshcore/configure-room-server.md)
+* [Recommended Repeater Build Instructions](meshcore/build-repeater-solar-rak-unify-box.md)
+* MeshCore to Discord using Meshcore-HA
+* [Compiling Wifi Firmware for Heltek v3](meshcore/heltec-v3-wifi-firmware.md)
+* [Compiling RAK4631 firmware with a Custom Display](meshcore/rak-custom-display-firmware.md)
 
 ### MeshCore Packet Analyzer
-* [[MeshCore-Packet/Overview| Overview]]
-* [[MeshCore-Packet/OnboardObserver| Add a Companion Listener]]
-* [[MeshCore-Packet/OnboardRepeaterObserver| Add a Standalone Listener]]
+* [Overview](meshcore/packet-capture-overview.md)
+* [Add a Companion Listener](meshcore/packet-capture-companion-listener.md)
+* [Add a Standalone Listener](meshcore/packet-capture-standalone-repeater-listener.md)
 
 ### Ottawa Deployment
-* [[MeshCore/Repeaters & Coverage|Repeaters & Coverage]]
-* [[MeshCore/Frequency Settings|Frequency Settings]]
-* [[MeshCore/Wanted Repeater Locations|Wanted Repeater Locations]]
+* [Repeaters & Coverage](meshcore/repeaters-and-coverage.md)
+* [Frequency Settings](meshcore/frequency-settings-meshcore.md)
+* [Wanted Repeater Locations](meshcore/wanted-repeater-locations.md)
 
 ## Meshtastic
-
 The Meshtastic section is a work-in-progress 
 
-* [[Meshtastic/Getting Started|Getting Started]]
-* [[Meshtastic/Frequency Settings|Frequency Settings]]
+* [Getting Started](meshtastic/getting-started.md)
+* [Frequency Settings](meshtastic/frequency-settings.md)
 
 ## Useful Resources
 * [Austin Mesh](https://www.austinmesh.org/) – Useful information and real-world testing of mesh nodes  
 * [Cold Weather Charging of Lithium-Ion Batteries](https://yycmesh.com/2025/04/19/cold-weather-charging-of-lithium-ion-batteries-real-world-lessons-from-the-meshtastic-community/) – A great write-up on repeater performance in extreme cold with LiPos  
 
 ----
-''This wiki is maintained by the Greater Ottawa Mesh Enthusiasts to provide information and track deployments.''
+*This wiki is maintained by the Greater Ottawa Mesh Enthusiasts to provide information and track deployments.*

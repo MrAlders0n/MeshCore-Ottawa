@@ -1,5 +1,5 @@
 
-[[Main Page|← Home]]
+← Home
 
 ## Antenna Recommendation
 Almost every LoRa device ships with a very basic factory antenna that performs poorly.  
@@ -91,7 +91,7 @@ The MeshCore app connects to the node over Bluetooth (BLE) and is used to send a
 | $10.00 CAD
 | [Link](https://www.makerfocus.com/products/makerfocus-3-7v-3000mah-lithium-rechargeable-battery-1s-3c-lipo-battery-pack-of-4?variant=44823607541998)
 |}
-''Approximate total cost (excluding antenna): $58.18 CAD''  
+*Approximate total cost (excluding antenna): $58.18 CAD*  
 
 Take a peek at [Alley Cat’s models](https://www.printables.com/@AlleyCat/models) — they’re excellent 3D-printable cases for custom companion node builds.
 

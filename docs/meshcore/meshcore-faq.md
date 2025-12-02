@@ -1,7 +1,6 @@
-[[Main Page|← Home]] / [[MeshCore|MeshCore]]
+← Home / MeshCore
 
 # MeshCore FAQ
-
 This page covers frequently asked questions about using MeshCore in Ottawa.  
 Each section provides quick guidance for common tasks.
 
@@ -30,82 +29,78 @@ By default, MeshCore companion nodes in Ottawa have access to the shared **publi
   * If not, you will see only its **ID**.  
 
 ## How to Share Your Contact URL
-
 1. Open the MeshCore app and connect it to your companion node.  
 
 2. Tap the **Signal** icon at the top.  
-[[:File:MeshCore_GetContactID1.png|🔗 View Screenshot]]  
+🔗 View Screenshot  
 
 3. Tap **Advert → To Clipboard**.  
-[[:File:MeshCore_GetContactID2.png|🔗 View Screenshot]]  
+🔗 View Screenshot  
 
 4. Your contact URL is now copied to your phone’s clipboard.  
    Paste it into chat, notes, or anywhere else you want to share it.
 
 ## How to Import a Contact URL
-
 1. Open the MeshCore app and connect it to your companion node.  
 
 2. Tap the **three dots** in the top-right corner (menu button).  
-[[:File:MeshCore_AddContactMan1.png|🔗 View Screenshot]]  
+🔗 View Screenshot  
 
 3. Tap **Add Contact**.  
-[[:File:MeshCore_AddContactMan2.png|🔗 View Screenshot]]  
+🔗 View Screenshot  
 
 4. Tap **Import from Clipboard Link**.  
-[[:File:MeshCore_AddContactMan3.png|🔗 View Screenshot]]  
+🔗 View Screenshot  
 
 5. Within a few seconds, you should see a green notification pop up from the bottom:  
    **"Success – contact has been imported"**  
-[[:File:MeshCore_AddContactMan5.png|🔗 View Screenshot]]  
+🔗 View Screenshot  
 
 6. Exit out of the Add Contact page. A notification will pop up from the top:  
    **"New Contact Discovered <NAME>"**  
-[[:File:MeshCore_AddContactMan6.png|🔗 View Screenshot]]  
+🔗 View Screenshot  
 
 7. The contact will now appear in your contact list.
 
 ## How to Trace Route to a Node (1 Hop)
-
 1. Open the MeshCore app and connect it to your companion node.  
 
 2. Tap the **three dots** in the top-right corner (menu button).  
-[[:File:MeshCore_TraceRoute1.png|🔗 View Screenshot]]  
+🔗 View Screenshot  
 
 3. Tap **Tools**.  
-[[:File:MeshCore_TraceRoute2.png|🔗 View Screenshot]]  
+🔗 View Screenshot  
 
 4. Tap **Trace Path – Manual**.  
-[[:File:MeshCore_TraceRoute3.png|🔗 View Screenshot]]  
+🔗 View Screenshot  
 
 5. Tap the **plus button** to select your repeater.  
-[[:File:MeshCore_TraceRoute4.png|🔗 View Screenshot]]  
+🔗 View Screenshot  
 
 6. Select the repeater you want to trace to, then tap the checkmark at the top.  
-[[:File:MeshCore_TraceRoute1Hop1.png|🔗 View Screenshot]]  
+🔗 View Screenshot  
 
 7. You will see only a single repeater ID in the path — this indicates a 1-hop trace.  
    * You do not need to specify a return path because the trace goes directly to the repeater and back to your node.  
-[[:File:MeshCore_TraceRoute1Hop2.png|🔗 View Screenshot]]  
+🔗 View Screenshot  
 
 8. Tap **Trace Path** to run the trace.  
-[[:File:MeshCore_TraceRoute1Hop2.png|🔗 View Screenshot]]
+🔗 View Screenshot
 
 ## How to Trace Route to a Node (2+ Hops)
-
 1. Open the MeshCore app and connect it to your companion node.  
 
 2. Tap the **three dots** in the top-right corner (menu button).  
-[[:File:MeshCore_TraceRoute1.png|🔗 View Screenshot]]  
+🔗 View Screenshot  
 
 3. Tap **Tools**.  
-[[:File:MeshCore_TraceRoute2.png|🔗 View Screenshot]]  
+🔗 View Screenshot  
 
 4. Tap **Trace Path – Manual**.  
-[[:File:MeshCore_TraceRoute3.png|🔗 View Screenshot]]  
+🔗 View Screenshot  
 
 5. Tap the **plus button** to select your repeater.  
-[[:File:MeshCore_TraceRoute4.png|🔗 View Screenshot]]  
+🔗 View Screenshot  
 
 6. Select the repeaters you want to trace in order.  
    * In this menu, you can't select repeaters more than once.  
@@ -114,10 +109,10 @@ By default, MeshCore companion nodes in Ottawa have access to the shared **publi
    * Alternatively, if you know the repeater IDs, you can type them directly into the path bar (comma-separated).  
    * Example: To trace from RepeaterA (ID **d3**) → RepeaterB (ID **f3**) → back to RepeaterA, the path bar would be:  
      **d3, f3, d3**  
-[[:File:MeshCore_TraceRoute2Hop1.png|🔗 View Screenshot]]  
+🔗 View Screenshot  
 
 7. Verify the path bar shows both the forward and return paths. Then tap **Trace**.  
-[[:File:MeshCore_TraceRoute2Hop2.png|🔗 View Screenshot]]  
+🔗 View Screenshot  
 
 8. The trace results will appear.  
-[[:File:MeshCore_TraceRoute2Hop3.png|🔗 View Screenshot]]
+🔗 View Screenshot

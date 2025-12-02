@@ -1,5 +1,5 @@
 
-[[Main Page|← Home]]
+← Home
 
 Repeaters form the stable backbone of the Ottawa MeshCore network.  
 Below are two main options for getting started: **Pre-Built** or **Build Your Own**  
@@ -57,9 +57,9 @@ A robust build using a purpose-built weatherproof enclosure.
 | [Link](https://aliexpress.com/item/1005006370919409.html)
 |}
 
-''Approximate total cost: $173.03 CAD''
+*Approximate total cost: $173.03 CAD*
 
-* [[Hardware/Repeaters/BuildRepeater1|Build Instructions]]
+* Build Instructions
 
 ## Pre-Built
 These options come fully assembled; just flash MeshCore and mount them in a high location to expand the mesh.  

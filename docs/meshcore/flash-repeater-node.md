@@ -1,10 +1,9 @@
 
-[[Main Page|← Home]]
+← Home
 
 This guide will help you flash a node, configure it as a repeater.
 
 ## Flashing & Configuring a Repeater Node
-
 ### RAK Bootloader update (Skip if not using a RAK based board)
 **Important:** Before configuration, you must update the bootloader on RAK boards.  
 Without this fix, failed OTA updates can leave the repeater in an unusable state that requires physical recovery.
@@ -43,7 +42,7 @@ Without this fix, failed OTA updates can leave the repeater in an unusable state
 ### Configuring a MeshCore Repeater
 1. Using Google Chrome, open the repeater configuration tool: [MeshCore Repeater Config](https://config.meshcore.dev/).  
 
-2. After connecting to the device, navigate to [[MeshCore/Repeaters & Coverage#Ottawa Repeater IDs|Ottawa Repeater IDs]] and make sure the first two characters of your public key are not already in use.  
+2. After connecting to the device, navigate to Ottawa Repeater IDs and make sure the first two characters of your public key are not already in use.  
    * MeshCore repeater IDs are based on the **first two characters of the public key**.  
    * As the mesh has grown, duplicate IDs have caused routing conflicts — it’s important to avoid using an existing ID.  
    * Developers are working on a long-term fix, but for now, each new repeater must use a unique ID.
@@ -55,15 +54,15 @@ There are **two ways** to assign a new repeater ID:
 
 **Option 1 – Reflash the repeater (automatic key generation)**
 
-1. Reflash the repeater. Follow [[MeshCore/Getting Started#Flashing a Node|Flashing a Node]] from the beginning, and make sure to **Flash Erase** during the process.
+1. Reflash the repeater. Follow Flashing a Node from the beginning, and make sure to **Flash Erase** during the process.
 
-2. This will generate a new random private key and therefore a new public key and repeater ID. However, it could generate a duplicate again, so please verify afterwards that your new repeater ID is unique by checking it against the [[MeshCore/Repeaters & Coverage|Ottawa Repeater ID List]].
+2. This will generate a new random private key and therefore a new public key and repeater ID. However, it could generate a duplicate again, so please verify afterwards that your new repeater ID is unique by checking it against the [Ottawa Repeater ID List](meshcore/repeaters-and-coverage.md).
 
 **Option 2 – Manually generate a private key (choose your own ID)**
 
 If you want to choose your repeater’s ID prefix manually:
 
-1. Visit the [[MeshCore/Repeaters & Coverage|Ottawa Repeater ID List]] and select an unused 2-digit ID.
+1. Visit the [Ottawa Repeater ID List](meshcore/repeaters-and-coverage.md) and select an unused 2-digit ID.
 
 2. Go to [mc-keygen](https://gessaman.com/mc-keygen/) and enter that 2-digit ID into the “Repeater ID” field, then click **Generate Key**.
  

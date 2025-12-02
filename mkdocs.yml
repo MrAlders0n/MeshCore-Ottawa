@@ -1,25 +1,24 @@
-
 site_name: Ottawa Mesh
 nav:
   - Home: index.md
   - MeshCore:
-    - Meshcore_Buildrepeaterrec: meshcore/meshcore_buildrepeaterrec.md
-    - Meshcore_Companionnodes: meshcore/meshcore_companionnodes.md
-    - Meshcore_Faq: meshcore/meshcore_faq.md
-    - Meshcore_Flashcompanion: meshcore/meshcore_flashcompanion.md
-    - Meshcore_Flashrepeater: meshcore/meshcore_flashrepeater.md
-    - Meshcore_Flashroom: meshcore/meshcore_flashroom.md
-    - Meshcore_Frequency_Settings: meshcore/meshcore_frequency_settings.md
-    - Meshcore_Heltekv3Wifi: meshcore/meshcore_heltekv3wifi.md
-    - Meshcore_Packet_Onboardobserver: meshcore/meshcore_packet_onboardobserver.md
-    - Meshcore_Packet_Onboardrepeaterobserver: meshcore/meshcore_packet_onboardrepeaterobserver.md
-    - Meshcore_Packet_Overview: meshcore/meshcore_packet_overview.md
-    - Meshcore_Rakcustomdisplay: meshcore/meshcore_rakcustomdisplay.md
-    - Meshcore_Repeatermountingoptions: meshcore/meshcore_repeatermountingoptions.md
-    - Meshcore_Repeaters: meshcore/meshcore_repeaters.md
-    - Meshcore_Repeaters_And_Coverage: meshcore/meshcore_repeaters_and_coverage.md
-    - Meshcore_Rolesexplained: meshcore/meshcore_rolesexplained.md
-    - Meshcore_Wanted_Repeater_Locations: meshcore/meshcore_wanted_repeater_locations.md
+    - Hardware Overview: meshcore/hardware-overview.md
+    - MeshCore FAQ: meshcore/meshcore-faq.md
+    - Companion Nodes & Antenna Recommendations: meshcore/companion-nodes-antenna.md
+    - RAK-Based Repeaters Note: meshcore/rak-based-repeaters-note.md
+    - Repeater Mounting Options: meshcore/repeater-mounting-options.md
+    - Flashing a Companion Node: meshcore/flash-companion-node.md
+    - Flashing a Repeater Node: meshcore/flash-repeater-node.md
+    - Configuring a Room Server: meshcore/configure-room-server.md
+    - Build Repeater · Solar RAK Unify Box: meshcore/build-repeater-solar-rak-unify-box.md
+    - RAK4631 Custom Display Firmware: meshcore/rak-custom-display-firmware.md
+    - Heltec V3 Wi-Fi Firmware: meshcore/heltec-v3-wifi-firmware.md
+    - Packet Capture · Overview: meshcore/packet-capture-overview.md
+    - Packet Capture · Companion Listener: meshcore/packet-capture-companion-listener.md
+    - Packet Capture · Standalone Repeater Listener: meshcore/packet-capture-standalone-repeater-listener.md
+    - Repeaters & Coverage: meshcore/repeaters-and-coverage.md
+    - MeshCore Frequency Settings: meshcore/frequency-settings-meshcore.md
+    - Wanted Repeater Locations: meshcore/wanted-repeater-locations.md
   - Meshtastic:
-    - Meshtastic_Frequency_Settings: meshtastic/meshtastic_frequency_settings.md
-    - Meshtastic_Getting_Started: meshtastic/meshtastic_getting_started.md
+    - Getting Started: meshtastic/getting-started.md
+    - Frequency Settings: meshtastic/frequency-settings.md

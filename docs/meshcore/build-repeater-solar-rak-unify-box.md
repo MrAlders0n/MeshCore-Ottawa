@@ -1,15 +1,13 @@
 
-[[Main Page|← Home]] 
+← Home 
 
 # Building a Solar Node – Rak Unify Box
-
 **WARNING: THIS IS A WORK IN PROGRESS AND IS NOT FINAL. DO NOT FOLLOW THIS UNTIL THIS MESSAGE IS REMOVED.**
 
 This guide walks through assembling a solar-powered MeshCore repeater using the **RAK Unify Box** enclosure.  
 Follow each step carefully for a reliable and weatherproof build.
 
 ## Assembly Steps
-
 **WARNING: Always ensure a LoRa antenna and the Bluetooth antenna are attached to the RAK board before powering it on. Powering without antennas can permanently damage the board.**
 
 1. Unbox all components and place them aside.  
@@ -33,25 +31,25 @@ Follow each step carefully for a reliable and weatherproof build.
 
 7. Connect the Bluetooth IPEX to the RAK19003 board.  
 
-8. Connect an antenna to the N-type connector, then flash and configure the RAK unit following [[MeshCore/Getting_Started#Configuring_a_Repeater|Configuring a Repeater]].  
+8. Connect an antenna to the N-type connector, then flash and configure the RAK unit following Configuring a Repeater.  
 
 9. Mount the RAK unit onto the backplate, see picture below for what it should look like at this step.  
 
-[[File:BuildRepeater1_MountedAll.jpeg|frameless]]  
+frameless  
 
 10. Connect the JST PHR-2 cable to the RAK19003 battery plug, **ensuring correct polarity** (many JST cables are wired incorrectly).  
 
-[[File:RAK19003-Layout.png|frameless]]  
+frameless  
 
 11. Connect the other end of this cable to the **CHG** side of the VoltaicEnclosures Li-ion PCM.  
 
-[[File:VoltaicEnclosures_Layout.png|frameless]]  
+frameless  
 
 12. Slide a piece of heat-shrink tubing over the cable large enough to cover the PCM before connecting the battery.  
 
 13. Connect the LiPo JST PHR-2 cable to the **BATT** side of the PCM, again **ensuring polarity is correct**.  
 
-[[File:RAK19003-LayoutSolar.jpg|frameless]]  
+frameless  
 
 14. Heat-shrink the VoltaicEnclosures Li-ion PCM so the entire board is covered.  
 
@@ -59,7 +57,7 @@ Follow each step carefully for a reliable and weatherproof build.
 
 16. (Optional) Secure the battery to the backplate with double-sided tape or mounting hardware. It should look like the below image.
 
-[[File:BuildRepeater1_Finished.jpeg|frameless]]  
+frameless  
 
 17. Fit the rubber seal into the groove around the edge of the front plate of the box.  
 
@@ -73,7 +71,7 @@ Follow each step carefully for a reliable and weatherproof build.
 
 21. Apply a bead of clear outdoor silicone caulk around the base of the N-type connector to prevent water from leaking into the box. 
 
-[[File:BuildRepeater1_SelfFuseTape.jpeg|frameless]]  
-[[File:BuildRepeater1_Heatshrink.jpg|frameless]]   
+frameless  
+frameless   
 
 22. (Optional) Add a bead of silicone caulk along the top edge of the box seal (between the two plates) and around the base of the antenna as extra waterproofing protection.

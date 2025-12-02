@@ -1,5 +1,4 @@
 # MeshCore-Packet/Overview
-
 The **MeshCore Packet Analyzer** provides real-time visibility into MeshCore network activity — allowing anyone to inspect, decode(only public unencrypted messages), and understand how packets move across the Ottawa mesh.
 
 ## Live Analyzer (Ottawa Region)
@@ -26,7 +25,7 @@ View the live packet feed here:
 ** Toggle auto-refresh to pause the stream while inspecting packets
 
 ## How the Analyzer Works
-Participating gateways (called **observers**) run the ''meshcore-packet-capture'', which listens for LoRa traffic and forwards decoded packets to the analyzer.  
+Participating gateways (called **observers**) run the *meshcore-packet-capture*, which listens for LoRa traffic and forwards decoded packets to the analyzer.  
 Packets are aggregated by region (e.g., **YOW** for Ottawa) and displayed in near real time.
 
 You can:

@@ -1,8 +1,7 @@
 
-[[Main Page|← Home]]
+← Home
 
 # Frequency Settings for Meshtastic
-
 Meshtastic uses LoRa radios, which operate on different frequencies depending on regional regulations. 
 Using the correct preset is important to ensure you stay legal and compatible with the local mesh.
 
@@ -21,7 +20,9 @@ It ensures maximum compatibility between nodes in the region.
 # Save and reboot your device.
 
 For detailed instructions, see the official docs:  
-[## Other Regional Presets
+[https://meshtastic.org/docs/configuration/radio/]
+
+## Other Regional Presets
 Meshtastic includes several built-in presets depending on your location:
 
 {| class="wikitable"
@@ -158,15 +159,15 @@ Meshtastic includes several built-in presets depending on your location:
 | 10
 |}
 
-''Note:'' Your node must use the same preset as the rest of your mesh.  
+*Note:* Your node must use the same preset as the rest of your mesh.  
 If you’re travelling, you may need to reconfigure your frequency to join a different region’s network.
 
 ## Why Frequency Matters
-* Ensures ''legal operation'' under local spectrum regulations.  
-* Maximises ''range and reliability'' by staying in band.  
+* Ensures *legal operation* under local spectrum regulations.  
+* Maximises *range and reliability* by staying in band.  
 * Prevents interference with other radio services.  
 
 ## Next Steps
-* Configure your node → [[Meshtastic/Getting Started](https://meshtastic.org/docs/configuration/radio/])]  
-* Join the Ottawa channel → [[Meshtastic/Join the Ottawa Channel]]  
-* Troubleshoot issues → [[Meshtastic/Common Issues and Fixes]]
+* Configure your node → [Meshtastic/Getting Started](meshtastic/getting-started.md)  
+* Join the Ottawa channel → Meshtastic/Join the Ottawa Channel  
+* Troubleshoot issues → Meshtastic/Common Issues and Fixes

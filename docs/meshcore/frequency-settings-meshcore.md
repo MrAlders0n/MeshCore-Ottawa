@@ -1,8 +1,7 @@
 
-[[Main Page|← Home]]
+← Home
 
 # MeshCore Frequency Settings
-
 MeshCore developers have published recommended frequency settings that balance performance and avoid congestion in the ISM band, which is often busy with IoT devices such as smart meters.  
 Ottawa follows the new recommended defaults for US/CAN.
 

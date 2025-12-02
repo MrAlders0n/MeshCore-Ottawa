@@ -1,5 +1,5 @@
 
-[[Main Page|← Home]]
+← Home
 
 ## Overview
 MeshCore coverage in the Ottawa area is provided by a backbone of solar-powered repeaters.  
@@ -25,7 +25,7 @@ Use the filter at the top and select **Repeaters only** to see active backbone n
 The following MeshCore node identifiers are currently **unused** and available for future Ottawa repeaters:  
 <div style="overflow-x:auto; white-space:nowrap; border:1px solid #ccc; padding:6px; background:#f8f8f8;">09,0d,0e,11,12,13,16,18,19,1a,1b,1d,21,23,24,25,26,28,29,2a,2b,2c,2f,31,32,33,34,36,3a,3c,3d,3f,40,41,43,44,45,46,49,4a,4c,52,54,55,56,57,58,5a,5b,5d,5e,5f,60,62,63,65,66,67,68,69,6b,6c,6d,6e,6f,71,72,73,77,78,7a,7e,7f,82,84,86,87,88,8a,8c,8d,8e,91,93,94,95,96,97,98,9a,9b,9c,9d,9e,9f,a1,a3,a6,aa,ab,ac,ae,b0,b2,b4,b5,b6,b8,b9,ba,bb,bc,bd,bf,c0,c1,c5,c6,c7,c8,ca,cb,ce,d4,d5,d7,d8,d9,db,dc,dd,de,df,e0,e2,e3,e4,e5,e6,e7,e8,e9,ea,eb,ec,ed,ef,f0,f1,f5,f6,f7,f8,f9,fa,fb,fd
 </div>
-''(157 remaining IDs)''
+*(157 remaining IDs)*
 
 ### Deployed Repeater IDs
 The table below lists currently deployed Ottawa repeaters.  
@@ -237,11 +237,11 @@ Each repeater has a unique ID, a name for easier reference, and basic informatio
 |-
 | 6a || Zaffman_R1|| TBD || TBD (~X.X m) || TBD
 |}
-''If you spot an error in this repeater list or would like to add your own, please contact MrAlders0n on the Greater Ottawa Mesh Enthusiasts Discord.''
+*If you spot an error in this repeater list or would like to add your own, please contact MrAlders0n on the Greater Ottawa Mesh Enthusiasts Discord.*
 
 ## Detailed Coverage Maps
 This section contains community-generated coverage maps based on expected RF propagation.  
 These are estimates only — actual coverage may vary depending on terrain, buildings, and antenna placement.
 
-* [[:File:CAN to Groundnode 2M.png|CAN to Ground (@2.0M)]]
-* [[:File:CAN To Roofnode.png|CAN to Roof (@7.5M)]]
+* CAN to Ground (@2.0M)
+* CAN to Roof (@7.5M)

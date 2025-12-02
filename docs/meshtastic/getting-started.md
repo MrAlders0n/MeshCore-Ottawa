@@ -1,14 +1,13 @@
 
-[[Main Page|← Home]]
+← Home
 
 # Getting Started with Meshtastic
-
 Meshtastic is a peer-to-peer LoRa mesh where every node can forward packets. 
 This guide will help you flash Meshtastic firmware onto your device and configure it for use in the local Ottawa mesh.
 
 ## Before You Start
 To set up your first node, you’ll need:
-* A supported LoRa device (see [[Meshtastic/Recommended Hardware (Canada)]])
+* A supported LoRa device (see Meshtastic/Recommended Hardware (Canada))
 * A USB cable for flashing
 * Google Chrome browser (required for the Web Flasher)
 * (Optional) The Meshtastic mobile app for iOS or Android
@@ -42,6 +41,6 @@ To build a reliable repeater-like node:
 # Power it continuously (mains or solar recommended).
 # Disable Bluetooth to save power and reduce interference (optional).
 
-''Tip:'' Do ''not'' change the device role from "Client" unless you’ve consulted the community.  
+*Tip:* Do *not* change the device role from "Client" unless you’ve consulted the community.  
 See: [Choosing the Right Device Role](https://meshtastic.org/blog/choosing-the-right-device-role/)
 

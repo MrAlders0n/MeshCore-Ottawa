@@ -1,15 +1,13 @@
 
-[[Main Page|← Home]] / [[Hardware|Hardware]]
+← Home / Hardware
 
 # Mounting Repeaters
-
 Mounting repeaters securely is critical for good performance and long-term reliability.  
 The goal is always to place the antenna as high as possible with clear line-of-sight, while ensuring the mount can withstand wind and weather.
 
 **Remember: Height is might — the higher the node, the better connection you will get to the mesh.**
 
 ## Mounting Options
-
 ### 1. Pole Mount
 The most common method is using a standard pole and clamp system.  
 * Simple to set up with widely available hardware.  
@@ -47,13 +45,12 @@ Community member **Aussiemandias** designed a specialized 3D printable gutter mo
 * [Download STL](https://drive.proton.me/urls/A0P57SRHT0#voPRasptRVbW)
 
 ### 3. Vent Pipe Extension Mount
-
 * Standard 3 foot ABS pipe from Home Depot, 3" in diameter.
 * ABS cement on the one side attached to the extension and on the side attached to the house two self-tapping screws in both sides as a safety measure, which allows removal in the future.
 
-[[File:VentPipeExtension.jpg|frameless|400px]]
+frameless|400px
 
 ## Notes
 * Regardless of mount type, always ensure the mount and fasteners are weather-rated and can handle local wind conditions.  
 * Periodically inspect mounts for wear, corrosion, or loosening.  
-* These options are specifically for the recommended solar repeater build, linked here: [[Hardware/Repeaters#Solar_Node_–_Recommended_Enclosure|Solar Node – Recommended Enclosure]].
+* These options are specifically for the recommended solar repeater build, linked here: Solar Node – Recommended Enclosure.

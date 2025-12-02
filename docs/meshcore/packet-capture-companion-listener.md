@@ -1,5 +1,4 @@
 # MeshCore Packet Capture (Companion Node Listener)
-
 **Purpose:**  
 This guide explains how to install and run [MeshCore Packet Capture](https://github.com/agessaman/meshcore-packet-capture) on a **Debian-based system** (such as Raspberry Pi OS or Ubuntu) to stream captured packets from a **dedicated MeshCore companion node** to the [MeshCore Packet Analyzer](https://analyzer.letsme.sh/o).
 
@@ -155,7 +154,7 @@ sudo systemctl restart meshcore-capture
 </pre>
 
 ## 5. Managing the System Service
-The installer creates a ''systemd'' service named **meshcore-capture**.
+The installer creates a *systemd* service named **meshcore-capture**.
 
 <pre>
 sudo systemctl start meshcore-capture

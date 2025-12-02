@@ -1,8 +1,7 @@
 
-[[Main Page|← Home]]
+← Home
 
 ## Overview
-
 ** This page is a work in progress.**
 
 We're looking to add repeaters in these locations. If you have any suggestions, please [Join our Discord.](https://discord.gg/WSyNd8SfNr)

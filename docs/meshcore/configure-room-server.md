@@ -1,11 +1,10 @@
 
-[[Main Page|← Home]]
+← Home
 
 Follow these steps to flash and configure a device as a MeshCore Room Server:
 
 ## Configuring a Room Server
 ### Flashing the Firmware
-
 1. Open the MeshCore Web Flasher: [Link](https://flasher.meshcore.co.uk/)
 
 2. Select your device from the list.
@@ -25,7 +24,6 @@ Follow these steps to flash and configure a device as a MeshCore Room Server:
 If this happens, refresh the page, click **Enter DFU Mode** again, and then click **Flash** to retry.  
 
 ### Configuring the Room Server
-
 8. After the flash is complete, click **Configure via USB**.
   
 9. Select your console device and click **Connect**.  
@@ -41,7 +39,6 @@ If this happens, refresh the page, click **Enter DFU Mode** again, and then clic
 14. Click **Reboot**.  
 
 ### Final Steps
-
 15. Connect back to the device via the console.  
 
 16. Click **Send Advert**.  

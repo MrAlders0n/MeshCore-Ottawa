@@ -1,6 +1,5 @@
 
 # Compiling MeshCore Firmware for RAK4631 with MakerFocus 1.3" OLED (SH1106)
-
 **Device:** These instructions are specifically for the **RAK4631** with the **MakerFocus 1.3" SH1106 OLED**.  
 **OS:** This guide was completed on **Red Hat 9.6**.  
 

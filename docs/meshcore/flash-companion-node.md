@@ -1,5 +1,5 @@
 
-[[Main Page|← Home]]
+← Home
 
 This guide will help you flash a node, configure it as a companion.
 
