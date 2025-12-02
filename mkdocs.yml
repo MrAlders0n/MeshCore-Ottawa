@@ -22,3 +22,8 @@ nav:
   - Meshtastic:
     - Getting Started: meshtastic/getting-started.md
     - Frequency Settings: meshtastic/frequency-settings.md
+
+theme:
+  name: material
+  palette:
+    scheme: slate      # dark palette
