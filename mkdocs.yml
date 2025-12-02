@@ -1,27 +1,25 @@
-site_name: Ottawa MeshCore Wiki
-site_url: https://ottawamesh.ca
-repo_url: https://github.com/MrAlders0n/MeshCore-Ottawa
-repo_name: MrAlders0n/MeshCore-Ottawa
 
-theme:
-  name: material
-  features:
-    - navigation.instant
-    - navigation.sections
-    - search.suggest
-    - search.highlight
-    - content.code.copy
-  language: en
-
+site_name: Ottawa Mesh
 nav:
   - Home: index.md
-  - Getting Started:
-      - Overview: getting-started/index.md
-      - Install a Companion: getting-started/install-companion.md
-  - Repeaters:
-      - Overview: repeaters/index.md
-      - Ottawa Backbone: repeaters/ottawa-backbone.md
-      - Solar Builds: repeaters/solar-builds.md
   - MeshCore:
-      - Adverts Explained: meshcore/adverts.md
-      - MQTT Bridge: meshcore/mqtt-bridge.md
+    - Meshcore_Buildrepeaterrec: meshcore/meshcore_buildrepeaterrec.md
+    - Meshcore_Companionnodes: meshcore/meshcore_companionnodes.md
+    - Meshcore_Faq: meshcore/meshcore_faq.md
+    - Meshcore_Flashcompanion: meshcore/meshcore_flashcompanion.md
+    - Meshcore_Flashrepeater: meshcore/meshcore_flashrepeater.md
+    - Meshcore_Flashroom: meshcore/meshcore_flashroom.md
+    - Meshcore_Frequency_Settings: meshcore/meshcore_frequency_settings.md
+    - Meshcore_Heltekv3Wifi: meshcore/meshcore_heltekv3wifi.md
+    - Meshcore_Packet_Onboardobserver: meshcore/meshcore_packet_onboardobserver.md
+    - Meshcore_Packet_Onboardrepeaterobserver: meshcore/meshcore_packet_onboardrepeaterobserver.md
+    - Meshcore_Packet_Overview: meshcore/meshcore_packet_overview.md
+    - Meshcore_Rakcustomdisplay: meshcore/meshcore_rakcustomdisplay.md
+    - Meshcore_Repeatermountingoptions: meshcore/meshcore_repeatermountingoptions.md
+    - Meshcore_Repeaters: meshcore/meshcore_repeaters.md
+    - Meshcore_Repeaters_And_Coverage: meshcore/meshcore_repeaters_and_coverage.md
+    - Meshcore_Rolesexplained: meshcore/meshcore_rolesexplained.md
+    - Meshcore_Wanted_Repeater_Locations: meshcore/meshcore_wanted_repeater_locations.md
+  - Meshtastic:
+    - Meshtastic_Frequency_Settings: meshtastic/meshtastic_frequency_settings.md
+    - Meshtastic_Getting_Started: meshtastic/meshtastic_getting_started.md
