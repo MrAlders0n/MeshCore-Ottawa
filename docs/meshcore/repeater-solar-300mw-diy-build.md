@@ -10,7 +10,7 @@ Follow each step carefully for a reliable and weatherproof build.
 **WARNING: Always ensure a LoRa antenna and the Bluetooth antenna are attached to the RAK board before powering it on. Powering without antennas can permanently damage the board.**
 
 1. Unbox all components and place them aside.  
-      ```* Tip: Try not to misplace the small screws and fittings — they’re easy to lose.```  
+      ```Tip: Try not to misplace the small screws and fittings — they’re easy to lose.```  
 
 2. Mount the RAK backplate into the box with the four provided screws.  
 
@@ -62,11 +62,11 @@ Follow each step carefully for a reliable and weatherproof build.
 
 18. Connect the solar panel wire from the front plate to the RAK19003.
 
-      ```* Be careful not to let the seal fall out of place while connecting the solar panel wire.```  
+      ```Be careful not to let the seal fall out of place while connecting the solar panel wire.```  
 
 19. Join the front and back plates together and fasten them with the six screws. 
 
-      ```* Tighten securely to maintain the weatherproof seal.```
+      ```Tighten securely to maintain the weatherproof seal.```
 
 20. Wrap the entire N-type connector and the exposed metal part of the Alfa antenna with self-adhering silicone tape, or use two layers of heat-shrink tubing for protection.  
 
