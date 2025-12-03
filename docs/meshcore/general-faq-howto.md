@@ -62,7 +62,6 @@ All Ottawa MeshCore nodes have access to the **public channel**.
    ![](images/MeshCore_AddContactMan5.png){ width="300" }
 6. A second popup appears:  
    **"New Contact Discovered \<NAME\>"**  
-   ![](images/MeshCore_AddContactMan6.png){ width="300" }
 7. The contact is now added.
 
 ---
