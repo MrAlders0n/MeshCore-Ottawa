@@ -5,8 +5,8 @@ Coverage can vary depending on height, line-of-sight paths, and local terrain, b
 
 * Ashton  
 * Barrhaven
-* Buckingham 
-* Carleton Place 
+* Buckingham
+* Carleton Place
 * Cumberland
 * Downtown
 * Kanata  

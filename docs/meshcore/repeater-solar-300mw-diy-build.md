@@ -1,25 +1,24 @@
-
-← Home 
-
 # Building a Solar Node – Rak Unify Box
+
 **WARNING: THIS IS A WORK IN PROGRESS AND IS NOT FINAL. DO NOT FOLLOW THIS UNTIL THIS MESSAGE IS REMOVED.**
 
 This guide walks through assembling a solar-powered MeshCore repeater using the **RAK Unify Box** enclosure.  
 Follow each step carefully for a reliable and weatherproof build.
 
 ## Assembly Steps
+
 **WARNING: Always ensure a LoRa antenna and the Bluetooth antenna are attached to the RAK board before powering it on. Powering without antennas can permanently damage the board.**
 
 1. Unbox all components and place them aside.  
-   * **Tip:** Try not to misplace the small screws and fittings — they’re easy to lose.  
+   ```Tip: Try not to misplace the small screws and fittings — they’re easy to lose.```  
 
 2. Mount the RAK backplate into the box with the four provided screws.  
 
 3. Drill two holes: one for the N-type antenna mount and one for the drain plug.  
    * Use a step drill bit for clean holes.  
    * **Finding the top of the box:**  
-     - Flip the box onto its back.  
-     - Locate the mount hole marked "1" — this is the top.  
+     * Flip the box onto its back.  
+     * Locate the mount hole marked "1" — this is the top.  
    * Drill slowly, one step at a time. Test-fit the N-type connector after each step until it fits snugly.  
    * Repeat the same process on the bottom of the box for the drain plug.  
 
@@ -35,7 +34,7 @@ Follow each step carefully for a reliable and weatherproof build.
 
 9. Mount the RAK unit onto the backplate, see picture below for what it should look like at this step.  
 
-frameless  
+![](images/600px-BuildRepeater1_MountedAll.jpeg){ width="300" }
 
 10. Connect the JST PHR-2 cable to the RAK19003 battery plug, **ensuring correct polarity** (many JST cables are wired incorrectly).  
 
