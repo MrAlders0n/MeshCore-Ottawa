@@ -14,14 +14,14 @@ A **companion node** is typically a small, personal device (often handheld or po
 * A companion node can talk directly to another companion node.  
 * **Only repeaters** are responsible for routing packets across the MeshCore network.  
 
-→ See [MeshCore/CompanionNodes](./companion-nodes-antenna.md) for details.
+→ See [Recommended Companions](./recommended-companions.md) for details.
 
 ## Repeaters
 A **repeater** is a fixed installation, usually mounted at height (e.g. rooftop, tower, or mast), that helps extend range and link mesh segments together.  
 * They run continuously on mains or solar power. In Ottawa most repeaters run off solar power.  
 * In MeshCore: repeaters form the stable, consistent **backbone infrastructure** of the network and are the only devices that perform packet routing.  
 
-→ See [MeshCore/Repeaters](./rak-based-repeaters-node.md) for details.
+→ See [Recommended Repeaters](./recommended-repeaters.md) for details.
 
 ## Room Servers
 A **room server** is a device flashed with specialized room server firmware that functions like a persistent chat room or old-school BBS.  
