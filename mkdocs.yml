@@ -43,3 +43,8 @@ markdown_extensions:
   - admonition
   - toc:
       permalink: true
+
+theme:
+  name: material
+  logo: docs/assets/logo-GOME-mkdocs.png
+  favicon: docs/assets/favicon-GOME-mkdocs.png
