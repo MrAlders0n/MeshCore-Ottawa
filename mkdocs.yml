@@ -1,6 +1,8 @@
 site_name: Ottawa Mesh
 nav:
   - Home: index.md
+  - Community:
+      - Getting Involved: community/getting-involved.md
   - MeshCore:
       - General:
           - MeshCore FAQ: meshcore/general-faq.md
@@ -29,6 +31,8 @@ nav:
   - Meshtastic:
       - Getting Started: meshtastic/getting-started.md
       - Frequency Settings: meshtastic/frequency-settings.md
+  - Resources:
+      - Useful Links: resources/useful-links.md
 theme:
   name: material
   palette:
