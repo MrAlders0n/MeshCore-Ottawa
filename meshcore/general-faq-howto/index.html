@@ -23,7 +23,7 @@
     
     
       
-        <title>MeshCore FAQ - Ottawa Mesh</title>
+        <title>MeshCore FAQ & How-To - Ottawa Mesh</title>
       
     
     
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              MeshCore FAQ
+              MeshCore FAQ & How-To
             
           </span>
         </div>
@@ -427,7 +427,7 @@
   <span class="md-ellipsis">
     
   
-    MeshCore FAQ
+    MeshCore FAQ & How-To
   
 
     
@@ -445,7 +445,7 @@
   <span class="md-ellipsis">
     
   
-    MeshCore FAQ
+    MeshCore FAQ & How-To
   
 
     
@@ -1612,159 +1612,122 @@
 
 
 
-<p>← Home / MeshCore</p>
 <h1 id="meshcore-faq">MeshCore FAQ</h1>
 <p>This page covers frequently asked questions about using MeshCore in Ottawa.<br />
 Each section provides quick guidance for common tasks.</p>
+<hr />
 <h2 id="how-adverts-work">How Adverts Work</h2>
 <p>MeshCore uses a <strong>repeater-driven advert system</strong> for discovery (not a prerequisite to transmit).</p>
 <ul>
-<li><strong>You do not need to have recevied an advert from a repeater to send a message.</strong> You can transmit at any time; any repeater that hears your packet will forward it.  </li>
-<li>Adverts allow your node to <strong>discover repeaters</strong> (their ID and info). This enables features such as:  </li>
+<li>
+<p><strong>You do not need to receive an advert from a repeater to send a message.</strong><br />
+  You can transmit at any time; any repeater that hears your packet will forward it.</p>
+</li>
+<li>
+<p>Adverts allow your node to <strong>discover repeaters</strong> (their ID and info). This enables:</p>
+</li>
 <li>Tracing paths to confirm connectivity  </li>
-<li>Seeing repeater names in the path summary of a message  </li>
-<li>Setting static paths to a specific user  </li>
-<li>Repeaters periodically broadcast <strong>adverts</strong> (short beacon packets) across the mesh.  </li>
-<li>In Ottawa, adverts are configured for:  </li>
-<li><strong>Zero-hop adverts (direct):</strong> Every 1 hour  </li>
-<li><strong>Flood adverts (forwarded across repeaters):</strong> Every 3 hours  </li>
+<li>Seeing repeater names in message paths  </li>
+<li>
+<p>Setting static paths to a specific user</p>
+</li>
+<li>
+<p>Repeaters periodically broadcast <strong>adverts</strong> (short beacon packets).</p>
+</li>
+<li>
+<p>In Ottawa:</p>
+</li>
+<li><strong>Zero-hop adverts:</strong> Every 1 hour  </li>
+<li><strong>Flood adverts:</strong> Every 3 hours  </li>
 </ul>
-<p>This approach keeps discovery traffic low while still ensuring that repeaters can be identified and messages are reliably forwarded across the mesh.</p>
+<hr />
 <h2 id="the-public-channel">The Public Channel</h2>
-<p>By default, MeshCore companion nodes in Ottawa have access to the shared <strong>public channel</strong>.  </p>
+<p>All Ottawa MeshCore nodes have access to the <strong>public channel</strong>.</p>
 <ul>
-<li>Any correctly flashed node set to the correct frequency can join immediately and begin passing traffic.  </li>
-<li>When you send a message and a repeater hears it, you will see <strong>Heard X Repeats</strong> under your message (instead of just <strong>Sent</strong>).  </li>
-<li>You can click and hold the message, then select <strong>Heard Repeats</strong> to see which repeaters heard it.  </li>
-<li>If you have discovered the repeater through adverts, you will see its <strong>name</strong>.  </li>
-<li>If not, you will see only its <strong>ID</strong>.  </li>
+<li>Any correctly flashed node on the correct frequency can pass traffic.</li>
+<li>When you send a message and a repeater hears it, the app shows <strong>Heard X Repeats</strong>.</li>
+<li>Hold a message → tap <strong>Heard Repeats</strong> to see which repeaters heard it.</li>
+<li>Known repeaters show <strong>names</strong>  </li>
+<li>Unknown repeaters show <strong>IDs</strong></li>
 </ul>
+<hr />
 <h2 id="how-to-share-your-contact-url">How to Share Your Contact URL</h2>
 <ol>
-<li>
-<p>Open the MeshCore app and connect it to your companion node.  </p>
-</li>
-<li>
-<p>Tap the <strong>Signal</strong> icon at the top.<br />
-🔗 View Screenshot  </p>
-</li>
-<li>
-<p>Tap <strong>Advert → To Clipboard</strong>.<br />
-🔗 View Screenshot  </p>
-</li>
-<li>
-<p>Your contact URL is now copied to your phone’s clipboard.<br />
-   Paste it into chat, notes, or anywhere else you want to share it.</p>
-</li>
+<li>Open the MeshCore app and connect to your node.</li>
+<li>Tap the <strong>Signal</strong> icon.<br />
+   <img src="images/MeshCore_GetContactID1.png" width="300"></li>
+<li>Tap <strong>Advert → To Clipboard</strong>.<br />
+   <img src="images/MeshCore_GetContactID2.png" width="300"></li>
+<li>Paste your contact URL anywhere you want to share it.</li>
 </ol>
+<hr />
 <h2 id="how-to-import-a-contact-url">How to Import a Contact URL</h2>
 <ol>
-<li>
-<p>Open the MeshCore app and connect it to your companion node.  </p>
-</li>
-<li>
-<p>Tap the <strong>three dots</strong> in the top-right corner (menu button).<br />
-🔗 View Screenshot  </p>
-</li>
-<li>
-<p>Tap <strong>Add Contact</strong>.<br />
-🔗 View Screenshot  </p>
-</li>
-<li>
-<p>Tap <strong>Import from Clipboard Link</strong>.<br />
-🔗 View Screenshot  </p>
-</li>
-<li>
-<p>Within a few seconds, you should see a green notification pop up from the bottom:<br />
+<li>Open the app and connect to your node.</li>
+<li>Tap the <strong>three dots</strong>.<br />
+   <img src="images/MeshCore_AddContactMan1.png" width="300"></li>
+<li>Tap <strong>Add Contact</strong>.<br />
+   <img src="images/MeshCore_AddContactMan2.png" width="300"></li>
+<li>Tap <strong>Import from Clipboard Link</strong>.<br />
+   <img src="images/MeshCore_AddContactMan3.png" width="300"></li>
+<li>After a few seconds you will see:<br />
 <strong>"Success – contact has been imported"</strong><br />
-🔗 View Screenshot  </p>
-</li>
-<li>
-<p>Exit out of the Add Contact page. A notification will pop up from the top:<br />
+   <img src="images/MeshCore_AddContactMan5.png" width="300"></li>
+<li>A second popup appears:<br />
 <strong>"New Contact Discovered <NAME>"</strong><br />
-🔗 View Screenshot  </p>
-</li>
-<li>
-<p>The contact will now appear in your contact list.</p>
-</li>
+   <img src="images/MeshCore_AddContactMan6.png" width="300"></li>
+<li>The contact is now added.</li>
 </ol>
+<hr />
 <h2 id="how-to-trace-route-to-a-node-1-hop">How to Trace Route to a Node (1 Hop)</h2>
 <ol>
-<li>
-<p>Open the MeshCore app and connect it to your companion node.  </p>
-</li>
-<li>
-<p>Tap the <strong>three dots</strong> in the top-right corner (menu button).<br />
-🔗 View Screenshot  </p>
-</li>
-<li>
-<p>Tap <strong>Tools</strong>.<br />
-🔗 View Screenshot  </p>
-</li>
-<li>
-<p>Tap <strong>Trace Path – Manual</strong>.<br />
-🔗 View Screenshot  </p>
-</li>
-<li>
-<p>Tap the <strong>plus button</strong> to select your repeater.<br />
-🔗 View Screenshot  </p>
-</li>
-<li>
-<p>Select the repeater you want to trace to, then tap the checkmark at the top.<br />
-🔗 View Screenshot  </p>
-</li>
-<li>
-<p>You will see only a single repeater ID in the path — this indicates a 1-hop trace.  </p>
-</li>
-<li>
-<p>You do not need to specify a return path because the trace goes directly to the repeater and back to your node.<br />
-🔗 View Screenshot  </p>
-</li>
-<li>
-<p>Tap <strong>Trace Path</strong> to run the trace.<br />
-🔗 View Screenshot</p>
-</li>
+<li>Open the app and connect.</li>
+<li>Tap the <strong>three dots</strong>.<br />
+   <img src="images/MeshCore_TraceRoute1.png" width="300"></li>
+<li>Tap <strong>Tools</strong>.<br />
+   <img src="images/MeshCore_TraceRoute2.png" width="300"></li>
+<li>Tap <strong>Trace Path – Manual</strong>.<br />
+   <img src="images/MeshCore_TraceRoute3.png" width="300"></li>
+<li>Tap the <strong>plus button</strong>.<br />
+   <img src="images/MeshCore_TraceRoute4.png" width="300"></li>
+<li>Select a repeater and confirm.<br />
+   <img src="images/MeshCore_TraceRoute1Hop1.png" width="300"></li>
+<li>You will see one repeater ID — a <strong>1-hop trace</strong>.<br />
+   <img src="images/MeshCore_TraceRoute1Hop2.png" width="300"></li>
+<li>Tap <strong>Trace Path</strong>.</li>
 </ol>
+<hr />
 <h2 id="how-to-trace-route-to-a-node-2-hops">How to Trace Route to a Node (2+ Hops)</h2>
 <ol>
+<li>Open the app and connect.</li>
+<li>Tap the <strong>three dots</strong>.<br />
+   <img src="images/MeshCore_TraceRoute1.png" width="300"></li>
+<li>Tap <strong>Tools</strong>.<br />
+   <img src="images/MeshCore_TraceRoute2.png" width="300"></li>
+<li>Tap <strong>Trace Path – Manual</strong>.<br />
+   <img src="images/MeshCore_TraceRoute3.png" width="300"></li>
 <li>
-<p>Open the MeshCore app and connect it to your companion node.  </p>
+<p>Tap the <strong>plus button</strong>.<br />
+   <img src="images/MeshCore_TraceRoute4.png" width="300"></p>
 </li>
 <li>
-<p>Tap the <strong>three dots</strong> in the top-right corner (menu button).<br />
-🔗 View Screenshot  </p>
+<p>Select repeaters <strong>in order</strong>:</p>
+</li>
+<li>Choose the <strong>forward path</strong>  </li>
+<li>Confirm  </li>
+<li>Re-open the add menu and choose the <strong>return path</strong></li>
+<li>
+<p>Or manually enter IDs:<br />
+     Example: <code>d3, f3, d3</code><br />
+   <img src="images/MeshCore_TraceRoute2Hop1.png" width="300"></p>
 </li>
 <li>
-<p>Tap <strong>Tools</strong>.<br />
-🔗 View Screenshot  </p>
+<p>Confirm both forward and return paths, then tap <strong>Trace</strong>.<br />
+   <img src="images/MeshCore_TraceRoute2Hop2.png" width="300"></p>
 </li>
 <li>
-<p>Tap <strong>Trace Path – Manual</strong>.<br />
-🔗 View Screenshot  </p>
-</li>
-<li>
-<p>Tap the <strong>plus button</strong> to select your repeater.<br />
-🔗 View Screenshot  </p>
-</li>
-<li>
-<p>Select the repeaters you want to trace in order.  </p>
-</li>
-<li>In this menu, you can't select repeaters more than once.  </li>
-<li>First, select your path <strong>to</strong> the repeater, then tap the checkmark.  </li>
-<li>Go back into the add menu and select the repeaters for the <strong>return path</strong>.  </li>
-<li>Alternatively, if you know the repeater IDs, you can type them directly into the path bar (comma-separated).  </li>
-<li>
-<p>Example: To trace from RepeaterA (ID <strong>d3</strong>) → RepeaterB (ID <strong>f3</strong>) → back to RepeaterA, the path bar would be:<br />
-<strong>d3, f3, d3</strong><br />
-🔗 View Screenshot  </p>
-</li>
-<li>
-<p>Verify the path bar shows both the forward and return paths. Then tap <strong>Trace</strong>.<br />
-🔗 View Screenshot  </p>
-</li>
-<li>
-<p>The trace results will appear.<br />
-🔗 View Screenshot</p>
+<p>View the results.<br />
+   <img src="images/MeshCore_TraceRoute2Hop3.png" width="300"></p>
 </li>
 </ol>
 
