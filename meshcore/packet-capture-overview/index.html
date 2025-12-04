@@ -1559,27 +1559,27 @@
 <h1 id="meshcore-packetoverview">MeshCore-Packet/Overview<a class="headerlink" href="#meshcore-packetoverview" title="Permanent link">&para;</a></h1>
 <p>The <strong>MeshCore Packet Analyzer</strong> provides real-time visibility into MeshCore network activity — allowing anyone to inspect, decode(only public unencrypted messages), and understand how packets move across the Ottawa mesh.</p>
 <h2 id="live-analyzer-ottawa-region">Live Analyzer (Ottawa Region)<a class="headerlink" href="#live-analyzer-ottawa-region" title="Permanent link">&para;</a></h2>
-<p>View the live packet feed here:<br />
-<a href="https://analyzer.letsme.sh/packets?region=YOW">MeshCore Packet Analyzer – Ottawa (YOW)</a></p>
+<p>View the live packet feed here:  </p>
+<p><a href="https://analyzer.letsme.sh/packets?region=YOW">MeshCore Packet Analyzer – Ottawa (YOW)</a></p>
 <h3 id="what-youll-see-on-the-page">What you'll see on the page<a class="headerlink" href="#what-youll-see-on-the-page" title="Permanent link">&para;</a></h3>
 <ul>
 <li><strong>Auto-refreshing packet table</strong> – each row is a single on-air packet captured by an observer in the YOW region.</li>
 <li><strong>Common columns:</strong>
-** <strong>Time (UTC)</strong> – when the packet was heard<br />
-<strong> </strong>Type<strong> – e.g., Advert, Message, AnonRequest/AnonReply, etc.<br />
-</strong> <strong>Channel / Hash</strong> – public channel or hash value (e.g., ch0)<br />
-<strong> </strong>Observer<strong> – which station heard the packet<br />
-</strong> <strong>RSSI / SNR</strong> – signal strength and quality reported by the observer<br />
-<strong> </strong>Path / PathLen<strong> – hop count and hop bytes (first byte of each repeater’s public key)<br />
-</strong> <strong>From / Node</strong> – sender public key and name (if present)<br />
-<strong> </strong>Flags / Coords** – app flags and latitude/longitude (if present in the payload)</li>
-<li><strong>Row actions / details:</strong>
-** <strong>Decoded view</strong> – expands header, path, and payload fields (header bitfield, timestamp, flags, etc.)<br />
-<strong> </strong>Raw hex** – shows the original packet bytes for verification or offline parsing</li>
-<li><strong>Filtering &amp; utilities:</strong>
-** Region is preset to <strong>YOW</strong> by the link<br />
-<strong> Filter text, sort columns, or change page size<br />
-</strong> Toggle auto-refresh to pause the stream while inspecting packets</li>
+** <strong>Time (UTC)</strong> – when the packet was heard  </li>
+<li><strong>Type</strong> – e.g., Advert, Message, AnonRequest/AnonReply, etc.  </li>
+<li><strong>Channel / Hash</strong> – public channel or hash value (e.g., ch0)  </li>
+<li><strong>Observer</strong> – which station heard the packet  </li>
+<li><strong>RSSI / SNR</strong> – signal strength and quality reported by the observer  </li>
+<li><strong>Path / PathLen</strong> – hop count and hop bytes (first byte of each repeater’s public key)  </li>
+<li><strong>From / Node</strong> – sender public key and name (if present)  </li>
+<li><strong>Flags / Coords</strong> – app flags and latitude/longitude (if present in the payload)</li>
+<li><strong>Row actions / details:</strong></li>
+<li><strong>Decoded view</strong> – expands header, path, and payload fields (header bitfield, timestamp, flags, etc.)  </li>
+<li><strong>Raw hex</strong> – shows the original packet bytes for verification or offline parsing</li>
+<li><strong>Filtering &amp; utilities:</strong></li>
+<li>Region is preset to <strong>YOW</strong> by the link  </li>
+<li>Filter text, sort columns, or change page size  </li>
+<li>Toggle auto-refresh to pause the stream while inspecting packets</li>
 </ul>
 <h2 id="how-the-analyzer-works">How the Analyzer Works<a class="headerlink" href="#how-the-analyzer-works" title="Permanent link">&para;</a></h2>
 <p>Participating gateways (called <strong>observers</strong>) run the <em>meshcore-packet-capture</em>, which listens for LoRa traffic and forwards decoded packets to the analyzer.<br />
