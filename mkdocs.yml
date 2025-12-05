@@ -13,7 +13,8 @@ nav:
           - 300mW Solar Repeater Build Guide: hardware/repeater-solar-300mw-diy-build.md
   - MeshCore:
       - General:
-          - MeshCore FAQ & How-To: meshcore/general-faq-howto.md
+          - MeshCore FAQ: meshcore/general-faq.md
+          - MeshCore How-To: meshcore/general-howto.md
           - MeshCore Roles: meshcore/general-meshcore-roles.md
           - MeshCore Frequency Settings: meshcore/general-frequency-settings.md
       - Ottawa Deployment:
