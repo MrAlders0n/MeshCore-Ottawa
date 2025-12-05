@@ -47,13 +47,13 @@ Photos, technical notes, and installation details are provided for each site.
 **Antenna:** Alfa Omni 5.8 dBi  
 **Height:** ~45 m  
 
-*Photo:*  
-<!-- ![CAN_SOLAR_R](./images/can_solar_r_placeholder.jpg)-->
-
 **Notes:**  
 - One of the most far-reaching repeaters in the region  
 - Provides interlinks to Stittsville, Richmond, Barrhaven, Orleans, Kanata, and much of the city  
 - Among the highest repeater installations in Ottawa  
+
+*Photo:*  
+![CAN](./images/repeater-showcase-CAN_1.jpg)
 
 ---
 
