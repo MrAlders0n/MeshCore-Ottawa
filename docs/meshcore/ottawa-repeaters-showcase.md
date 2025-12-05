@@ -63,11 +63,11 @@ Photos, technical notes, and installation details are provided for each site.
 - Provides interlinks to Stittsville, Richmond, Barrhaven, Orleans, Kanata, and much of the city  
 - Among the highest repeater installations in Ottawa  
 
-*Photos:* 
- 
-![CAN_3](./images/repeater-showcase-CAN_3.jpg)
+*Photos:*
 
-![CAN_4](./images/repeater-showcase-CAN_4.jpg) ![CAN_1](./images/repeater-showcase-CAN_1.jpg)
+![CAN_5](./images/repeater-showcase-CAN_5.jpg)
+
+![CAN_4](./images/repeater-showcase-CAN_4.jpg)
 
 ---
 
