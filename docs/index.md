@@ -54,7 +54,7 @@ Meshtastic is a **peer-to-peer mesh** where every node can forward traffic.
 ### Pick a Companion Node
 
 Start by picking a device from our recommended list:  
-**[Recommended Companions](meshcore/recommended-companions.md)**
+**[Recommended Companions](hardware/recommended-companions.md)**
 
 Your companion node is how you join the Ottawa mesh. It connects you directly into the MeshCore network.
 
