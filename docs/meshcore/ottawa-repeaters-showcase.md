@@ -23,8 +23,8 @@ Photos, technical notes, and installation details are provided for each site.
 
 *Photos:*
 
-![MAY_1](./images/repeater-showcase-MAY_1.jpg){ width="250" }
-![MAY_2](./images/repeater-showcase-MAY_2.jpg){ width="250" }
+![MAY_1](./images/repeater-showcase-MAY_1.jpg){ width="300" }
+![MAY_2](./images/repeater-showcase-MAY_2.jpg){ width="300" }
 
 ---
 
@@ -43,9 +43,9 @@ Photos, technical notes, and installation details are provided for each site.
 
 *Photos:*  
 
-![TOO_0](./images/repeater-showcase-TOO_0.jpg){ width="250" }
-![TOO_1](./images/repeater-showcase-TOO_1.jpg){ width="250" }
-![TOO_2](./images/repeater-showcase-TOO_2.jpg){ width="250" }
+![TOO_0](./images/repeater-showcase-TOO_0.jpg){ width="300" }
+![TOO_1](./images/repeater-showcase-TOO_1.jpg){ width="300" }
+![TOO_2](./images/repeater-showcase-TOO_2.jpg){ width="300" }
 
 ---
 
@@ -64,7 +64,7 @@ Photos, technical notes, and installation details are provided for each site.
 - Among the highest repeater installations in Ottawa  
 
 *Photo:*  
-![CAN](./images/repeater-showcase-CAN_1.jpg){ width="250" }
+![CAN](./images/repeater-showcase-CAN_1.jpg){ width="300" }
 
 ---
 
@@ -100,7 +100,7 @@ Photos, technical notes, and installation details are provided for each site.
 - Serves as a backbone connection between high-elevation western repeaters and central Ottawa
 
 *Photo:*  
-![CGD-MrA_R3](./images/repeater-showcase-GD-MrA_R3.jpg){ width="250" }
+![CGD-MrA_R3](./images/repeater-showcase-GD-MrA_R3.jpg){ width="300" }
 
 ---
 
@@ -118,7 +118,7 @@ Photos, technical notes, and installation details are provided for each site.
 - Often acts as a relay point for new west-end installs  
 
 *Photo:*  
-![e7her.nod3](./images/repeater-showcase-e7her.nod3.png){ width="250" }
+![e7her.nod3](./images/repeater-showcase-e7her.nod3.png){ width="300" }
 
 ---
 
@@ -156,10 +156,10 @@ Photos, technical notes, and installation details are provided for each site.
 
 *Photos:*  
 
-![VA3TEC_1](./images/repeater-showcase-VA3TEC_1.jpg){ width="250" }
-![VA3TEC_2](./images/repeater-showcase-VA3TEC_2.jpg){ width="250" }
-![VA3TEC_3](./images/repeater-showcase-VA3TEC_3.jpg){ width="250" }
-![VA3TEC_4](./images/repeater-showcase-VA3TEC_4.jpg){ width="250" }
+![VA3TEC_1](./images/repeater-showcase-VA3TEC_1.jpg){ width="300" }
+![VA3TEC_2](./images/repeater-showcase-VA3TEC_2.jpg){ width="300" }
+![VA3TEC_3](./images/repeater-showcase-VA3TEC_3.jpg){ width="300" }
+![VA3TEC_4](./images/repeater-showcase-VA3TEC_4.jpg){ width="300" }
 
 ---
 
