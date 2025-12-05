@@ -1,5 +1,8 @@
 # Overview
 
+<!-- The repeater tables and ID list on this page are automatically generated from meshcore/data/repeaters.yml. 
+     To add a new repeater, simply append it to that YAML file — MkDocs will populate the tables automatically. -->
+
 This page lists all deployed and reserved repeater IDs in Ottawa, along with their current configurations.
 If you notice anything that should be updated, contact MrAlders0n on Discord or MeshCore, or reach out to any of the Knowledge Curators on the Discord server.
 
