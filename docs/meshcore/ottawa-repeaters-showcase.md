@@ -23,8 +23,8 @@ Photos, technical notes, and installation details are provided for each site.
 
 *Photos:*
 
-![MAY_1](./images/repeater-showcase-MAY_1.jpg)
-![MAY_2](./images/repeater-showcase-MAY_2.jpg)
+![MAY_1](./images/repeater-showcase-MAY_1.jpg){ width="300" }
+![MAY_2](./images/repeater-showcase-MAY_2.jpg){ width="300" }
 
 ---
 
@@ -44,8 +44,8 @@ Photos, technical notes, and installation details are provided for each site.
 *Photos:*  
 
 ![TOO_0](./images/repeater-showcase-TOO_0.jpg)
-![TOO_1](./images/repeater-showcase-TOO_1.jpg)
-![TOO_2](./images/repeater-showcase-TOO_2.jpg)
+![TOO_1](./images/repeater-showcase-TOO_1.jpg){ width="300" }
+![TOO_2](./images/repeater-showcase-TOO_2.jpg){ width="300" }
 
 ---
 
@@ -100,7 +100,7 @@ Photos, technical notes, and installation details are provided for each site.
 - Serves as a backbone connection between high-elevation western repeaters and central Ottawa
 
 *Photo:*  
-![CGD-MrA_R3](./images/repeater-showcase-GD-MrA_R3.jpg)
+![CGD-MrA_R3](./images/repeater-showcase-GD-MrA_R3.jpg){ width="300" }
 
 ---
 
@@ -156,10 +156,10 @@ Photos, technical notes, and installation details are provided for each site.
 
 *Photos:*  
 
-![VA3TEC_1](./images/repeater-showcase-VA3TEC_1.jpg)
-![VA3TEC_2](./images/repeater-showcase-VA3TEC_2.jpg)
-![VA3TEC_3](./images/repeater-showcase-VA3TEC_3.jpg)
-![VA3TEC_4](./images/repeater-showcase-VA3TEC_4.jpg)
+![VA3TEC_1](./images/repeater-showcase-VA3TEC_1.jpg){ width="300" }
+![VA3TEC_2](./images/repeater-showcase-VA3TEC_2.jpg){ width="300" }
+![VA3TEC_3](./images/repeater-showcase-VA3TEC_3.jpg){ width="300" }
+![VA3TEC_4](./images/repeater-showcase-VA3TEC_4.jpg){ width="300" }
 
 ---
 
