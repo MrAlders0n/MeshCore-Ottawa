@@ -15,14 +15,16 @@ Photos, technical notes, and installation details are provided for each site.
 **Antenna:** Alfa 5.8 dBi  
 **Height:** ~15 m  
 
-*Photo:*  
-<!-- ![MAY_SOLAR_R](./images/too_solar_r_placeholder.jpg) -->
-
 **Notes:**  
 
 - Serves Old Ottawa South, Carleton University, Riverside, and parts of downtown  
 - One of the earliest long-term solar installs in Ottawa  
 - Mounted on the roof of the historic Mayfair Theatre  
+
+*Photos:*
+
+![MAY_1](./images/repeater-showcase-MAY_1.jpg){ width="200" }
+![MAY_2](./images/repeater-showcase-MAY_2.jpg){ width="200" }
 
 ---
 
@@ -34,13 +36,16 @@ Photos, technical notes, and installation details are provided for each site.
 **Antenna:** Seeed Studio RF Explorer 902–928 MHz 8 dBi (1300 mm)  
 **Height:** ~31 m  
 
-*Photo:*  
-<!-- ![TOO_SOLAR_R](./images/too_solar_r_placeholder.jpg)-->
-
 **Notes:**  
 
 - Extends the mesh into Ashton, Beckwith, Munster, Kemptville, Carleton Place, and nearby rural areas  
-- Provides exceptional long-range coverage due to elevation and antenna gain  
+- Provides exceptional long-range coverage due to elevation and antenna gain 
+
+*Photos:*  
+
+![TOO_0](./images/repeater-showcase-TOO_0.jpg){ width="200" }
+![TOO_1](./images/repeater-showcase-TOO_1.jpg){ width="200" }
+![TOO_2](./images/repeater-showcase-TOO_2.jpg){ width="200" }
 
 ---
 
@@ -59,7 +64,7 @@ Photos, technical notes, and installation details are provided for each site.
 - Among the highest repeater installations in Ottawa  
 
 *Photo:*  
-![CAN](./images/repeater-showcase-CAN_1.jpg){ width="100" }
+![CAN](./images/repeater-showcase-CAN_1.jpg){ width="200" }
 
 ---
 
@@ -82,38 +87,43 @@ Photos, technical notes, and installation details are provided for each site.
 ---
 
 ## GD-MrA_R3  
+
 **Location:** Kanata  
 **Type:** Solar-powered elevated home-mounted repeater  
 **Role:** Kanata Regional Repeater  
 **Antenna:** Alfa 5.8 dBi  
 **Height:** ~14 m  
 
-*Photo:*  
-<!-- ![GD-MrA_R3](./images/gd_mra_r3_placeholder.jpg)-->
-
 **Notes:**  
+
 - Links into CAN and TOO, providing strong regional coverage  
-- Serves as a backbone connection between high-elevation western repeaters and central Ottawa  
+- Serves as a backbone connection between high-elevation western repeaters and central Ottawa 
+
+*Photo:*  
+![CGD-MrA_R3](./images/repeater-showcase-GD-MrA_R3.jpg){ width="200" }
 
 ---
 
 ## e7her.nod3  
+
 **Location:** Katimavik  
 **Type:** Solar-powered elevated tree-mounted repeater  
 **Role:** Kanata Regional Repeater  
 **Antenna:** Alfa 5.8 dBi  
 **Height:** ~15 m  
 
-*Photo:*  
-<!-- ![e7her.nod3](./images/e7her_nod3_placeholder.jpg)-->
-
 **Notes:**  
+
 - Connects to CAN and TOO while strengthening Kanata and Stittsville coverage  
 - Often acts as a relay point for new west-end installs  
+
+*Photo:*  
+![Ce7her.nod3](./images/repeater-showcase-e7her.nod3.jpg){ width="200" }
 
 ---
 
 ## Alx (AlxR1 / AlxR2 / AlxR4)  
+
 **Location:** Orleans / Gloucester  
 **Type:** Mix of directional and omni installations  
 **Role:** East-end Wide Area Repeaters  
@@ -124,6 +134,7 @@ Photos, technical notes, and installation details are provided for each site.
 <!-- - ![AlxR4](./images/alxr4_placeholder.jpg)  -->
 
 **Notes:**  
+
 - One of the strongest and most stable backbone clusters in the east end  
 - AlxR2’s elevation provides excellent links across the city  
 - Critical for maintaining resilience and coverage throughout Orleans  
@@ -131,6 +142,7 @@ Photos, technical notes, and installation details are provided for each site.
 ---
 
 ## NEW_SOLAR_R / VA3TEC_R1  
+
 **Location:** Orleans  
 **Type:** Solar-powered elevated home-mounted repeater  
 **Role:** East-end Regional Repeater  
@@ -138,15 +150,16 @@ Photos, technical notes, and installation details are provided for each site.
 **Height:** ~12 m  
 
 **Notes:**  
+
 - Links to the Alx cluster while providing coverage into Orleans, Buckingham, and nearby regions  
 - Common relay point for new east-end installs  
 
 *Photos:*  
 
-![VA3TEC](./images/repeater-showcase-VA3TEC_1.jpg){ width="100" }
-![VA3TEC](./images/repeater-showcase-VA3TEC_2.jpg){ width="100" }
-![VA3TEC](./images/repeater-showcase-VA3TEC_3.jpg){ width="100" }
-![VA3TEC](./images/repeater-showcase-VA3TEC_4.jpg){ width="100" }
+![VA3TEC_1](./images/repeater-showcase-VA3TEC_1.jpg){ width="200" }
+![VA3TEC_2](./images/repeater-showcase-VA3TEC_2.jpg){ width="200" }
+![VA3TEC_3](./images/repeater-showcase-VA3TEC_3.jpg){ width="200" }
+![VA3TEC_4](./images/repeater-showcase-VA3TEC_4.jpg){ width="200" }
 
 ---
 
