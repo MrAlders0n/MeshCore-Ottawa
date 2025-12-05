@@ -15,7 +15,7 @@ A **companion node** is a small personal device (handheld or portable) that lets
 - They can communicate directly with each other  
 - **Only repeaters** perform routing across the MeshCore network  
 
-**→ See [Recommended Companions](recommended-companions.md)**
+**→ See [Recommended Companions](../hardware/recommended-companions.md)**
 
 ---
 
@@ -28,7 +28,7 @@ A **repeater** is a fixed installation, typically mounted at elevation (rooftop,
 - In MeshCore, repeaters form the stable **backbone** of the network  
 - They are the **only devices** that perform packet routing  
 
-**→ See [Recommended Repeaters](recommended-repeaters.md)**
+**→ See [Recommended Repeaters](../hardware/recommended-repeaters.md)**
 
 ---
 
