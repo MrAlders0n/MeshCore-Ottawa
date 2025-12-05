@@ -10,13 +10,22 @@ We’re a community of hobbyists, builders, and experimenters working together t
 Both **MeshCore** and **Meshtastic** run on top of LoRa radios.  
 LoRa (Long Range) is a low-power, long-distance radio modulation ideal for community networks, sensors, emergency use, and experimentation.
 
-Across Ottawa and the surrounding area we currently operate over **50 static MeshCore repeaters**, linking:
-
-**Carleton Place • Ashton • Stittsville • Kemptville • Kanata • Barrhaven • Westboro • Downtown • Old Ottawa South • Vanier • Orléans • Cumberland and more**
+Across Ottawa and the surrounding area we currently operate over **50 static MeshCore repeaters**
 
 Whether you want to experiment, build hardware, climb towers, or just connect with other enthusiasts — you’re welcome here.
 
----
+## MeshCore Map
+
+<div style="height: 600px; border: 1px solid #444;">
+  <iframe
+    src="https://analyzer.letsme.sh/map?lat=45.4215&long=-75.6972&zoom=9"
+    width="100%"
+    height="100%"
+    style="border:0;"
+    loading="lazy"
+    allowfullscreen>
+  </iframe>
+</div>
 
 ## MeshCore vs Meshtastic
 
@@ -40,8 +49,6 @@ Meshtastic is a **peer-to-peer mesh** where every node can forward traffic.
 
 [Watch a quick overview on YouTube](https://www.youtube.com/watch?v=tXoAhebQc0c)
 
----
-
 ## Getting Started With MeshCore
 
 ### Pick a Companion Node
@@ -59,8 +66,6 @@ With it, you can:
 - Join in on testing, experiments, and enjoy exploring the mesh  
 
 It's the easiest way to get started before moving on to repeaters or solar builds.
-
----
 
 ## About This Wiki
 
