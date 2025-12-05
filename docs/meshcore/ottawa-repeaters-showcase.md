@@ -118,7 +118,7 @@ Photos, technical notes, and installation details are provided for each site.
 - Often acts as a relay point for new west-end installs  
 
 *Photo:*  
-![Ce7her.nod3](./images/repeater-showcase-e7her.nod3.jpg){ width="200" }
+![e7her.nod3](./images/repeater-showcase-e7her.nod3.png){ width="200" }
 
 ---
 
