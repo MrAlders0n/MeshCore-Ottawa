@@ -17,8 +17,10 @@ nav:
           - MeshCore Roles: meshcore/general-meshcore-roles.md
           - MeshCore Frequency Settings: meshcore/general-frequency-settings.md
       - Ottawa Deployment:
-          - Repeaters & Coverage: meshcore/repeaters-and-coverage.md
-          - Wanted Repeater Locations: meshcore/wanted-repeater-locations.md
+          - Coverage: meshcore/ottawa-coverage.md
+          - Repeaters: meshcore/ottawa-repeaters.md
+          - Repeater Showcase: meshcore/ottawa-repeaters-showcase.md
+          - Wanted Repeater Locations: meshcore/ottawa-repeater-wanted-locations.md
       - Configuration:
           - Flashing a Companion: meshcore/flash-companion.md
           - Flashing a Repeater: meshcore/flash-repeater.md
