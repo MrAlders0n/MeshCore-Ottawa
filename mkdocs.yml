@@ -50,6 +50,7 @@ plugins:
   - search
   - macros
   - glightbox
+    touchNavigation: true
 
 theme:
   name: material
