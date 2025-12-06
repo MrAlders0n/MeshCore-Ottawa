@@ -215,6 +215,12 @@ repeaters:
     location: "Barrhaven"
     contact: "meshcore://contact/add?name=Inured%20Repeater%201&public_key=07C1CA685FC9A1B22FBF4ADCE74E07DF6B8E4FB641ABE9322A24687BDEC02DF7&type=2"
 
+  - id: "5d"
+    name: "Inured Repeater 1"
+    antenna: "TBD"
+    location: "Central Park"
+    contact: "meshcore://contact/add?name=Inured%20Repeater%202&public_key=5df532ee2f959a100cb5e3bbd42cd3495acaeb0b94ec7cb23a5f2bd4e1b0d81f&type=2"
+
   - id: "15"
     name: "JankierE22"
     antenna: "TBD"
@@ -346,6 +352,12 @@ repeaters:
     antenna: "N/A"
     location: "Old Ottawa South (N/A)"
     contact: "meshcore://1106f4a7c28b0b745c6717ee137c00b933bd8eb13173f5d00f2f88fec2f484978301dbf21b5523341e8dd468a043201aae4272a1fc6b85ed95629177143ef13ceeaa73118146abb72562616d516bfffbd4b3b6e4f9109e526aa7e8c2bacb6a89a0ef3caa6aeb04ec8745340893e3aab40215307dfb4f4f5320424253"
+
+  - id: "78"
+    name: "Peter Heltec Repeater"
+    antenna: "TBD"
+    location: "Barrhaven"
+    contact: "meshcore://contact/add?name=Peter%20Heltec%20Repeater&public_key=78cc71e4f633ffd7ccecd5526335b130886bf984efa5ec7b2aaee2226cb84da5&type=2"
 
   - id: "7d"
     name: "phr4"
