@@ -14,7 +14,7 @@ We're looking to add repeaters in these locations. If you have any suggestions, 
 | Downtown                  | Ottawa   | Ontario  |                                                            |
 | Hull                      | Gatineau | Quebec   |                                                            |
 | Masson-Angers             | Gatineau | Quebec   |                                                            |
-| Nepean                    | Ottawa   | Ontario  | Greenbank / Basement down to Baseline and Merivale area     |
+| Nepean                    | Ottawa   | Ontario  | Greenbank / Baseline down to Baseline and Merivale area     |
 | North Gower               | Ottawa   | Ontario  |                                                            |
 | Orleans                   | Ottawa   | Ontario  | Closer to the Ottawa River (e.g., Petrie's Landing towers) |
 | Stittsville               | Ottawa   | Ontario  | Along Highway 7 between edge of Stittsville and Ashton      |
