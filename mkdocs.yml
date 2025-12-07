@@ -45,6 +45,8 @@ markdown_extensions:
   - admonition
   - toc:
       permalink: true
+  - md_in_html
+  - pymdownx.blocks.caption
 
 plugins:
   - search
