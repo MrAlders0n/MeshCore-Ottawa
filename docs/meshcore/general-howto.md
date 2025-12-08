@@ -39,7 +39,7 @@ These instructions use the MeshCore mobile app and apply to both new and experie
 
 5. After a few seconds you will see:  
 
-**"Success - contact has been imported"**  
+   **"Success - contact has been imported"**  
 
    ![](images/MeshCore_AddContactMan5.png){ width="300" }
 
