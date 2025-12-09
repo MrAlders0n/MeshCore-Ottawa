@@ -191,6 +191,12 @@ repeaters:
     location: "Gatineau (~X.X m)"
     contact: "meshcore://contact/add?name=HX_TEST_R1&public_key=a9b25d7d85c60d149c403ab474b48332e5514cd8b57d6b3a93eb62c51944a803&type=2"
 
+  - id: "3d"
+    name: "HX_R2"
+    antenna: "TBD"
+    location: "Gatineau"
+    contact: "meshcore://contact/add?name=RAK4631%20Repeater&public_key=3d55109a5082a2018625e6d974fdfb8e24d3e8bee190a40357b69518f36bdf8d&type=2"
+
   - id: "37"
     name: "LFR1"
     antenna: "TBD"
@@ -376,12 +382,6 @@ repeaters:
     antenna: "TBD"
     location: "TBD"
     contact: "meshcore://contact/add?name=Quinterra&public_key=dada483f48fd3ea65dc0b7b531d09e4b814d32d42a601bc3193527eaf745c014&type=2"
-
-  - id: "3d"
-    name: "RAK4631 Repeater"
-    antenna: "TBD"
-    location: "Gatineau"
-    contact: "meshcore://contact/add?name=RAK4631%20Repeater&public_key=3d55109a5082a2018625e6d974fdfb8e24d3e8bee190a40357b69518f36bdf8d&type=2"
 
   - id: "0f"
     name: "Rax-Basement-R1"
