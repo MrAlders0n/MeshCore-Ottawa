@@ -7,7 +7,7 @@ def define_env(env):
 
 
     # Load repeater list from YAML
-    data_path = project_dir / "docs" / "meshcore" / "data" / "repeaters.yml"
+    data_path = project_dir / "docs" / "deployment" / "data" / "repeaters.yml"
     data = yaml.safe_load(data_path.read_text(encoding="utf-8"))
     repeaters = data.get("repeaters", [])
 
