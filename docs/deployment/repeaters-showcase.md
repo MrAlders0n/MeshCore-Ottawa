@@ -67,8 +67,8 @@ Photos, technical notes, and installation details are provided for each site.
 
 <table>
   <tr>
-    <td><img src="./images/repeater-showcase-CAN_5.jpg" width="300"></td>
-    <td><img src="./images/repeater-showcase-CAN_4.jpg" width="300"></td>
+    <td><img src="images/repeater-showcase-CAN_5.jpg" width="300"></td>
+    <td><img src="images/repeater-showcase-CAN_4.jpg" width="300"></td>
   </tr>
 </table>
 
