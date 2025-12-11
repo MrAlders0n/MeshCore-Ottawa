@@ -26,4 +26,4 @@ It ensures maximum compatibility between nodes in the region.
 
 * Save and reboot your device
 
-For detailed instructions, see the [official docs]([https://meshtastic.org/docs/configuration/radio/).
+For detailed instructions, see the [official docs](https://meshtastic.org/docs/configuration/radio/).
