@@ -1,9 +1,9 @@
 # Ottawa Coverage
 
-!!! warning "Ottawa Coverage Page"
+!!! warning "NCR Coverage Page"
     This page is a work in progress. A more detailed and accurate coverage map for Ottawa will be published once we have time to generate it.
 
-MeshCore coverage in the Ottawa area is provided by mostly solar-powered repeaters. Coverage can vary based on height, line-of-sight, and terrain, but the network generally reaches Ashton, Barrhaven, Buckingham, Carleton Place, Cumberland, Downtown, Kanata, Nepean, Old Ottawa South, Orleans, Richmond, and Stittsville.
+MeshCore coverage in the NCR area is provided by mostly solar-powered repeaters. Coverage can vary based on height, line-of-sight, and terrain, but the network generally reaches Ashton, Barrhaven, Buckingham, Carleton Place, Cumberland, Downtown, Kanata, Nepean, Old Ottawa South, Orleans, Richmond, and Stittsville.
 
 For a live view of deployed nodes, check the [MeshCore Map](https://analyzer.letsme.sh/map?lat=45.4215&long=-75.6972&zoom=9).  
 
