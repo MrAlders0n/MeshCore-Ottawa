@@ -1,0 +1,77 @@
+
+name: 📄 Documentation Correction
+description: Report typos, broken links, outdated steps, or structural/content issues in docs.
+title: "[Docs] Correction: <page or section>"
+labels:
+  - area:docs
+  - needs-triage
+  - correction
+assignees: []
+body:
+  - type: input
+    id: doc_url
+    attributes:
+      label: Documentation URL (or path)
+      description: Paste the exact page URL (e.g., https://ottawamesh.ca/docs/<page>) or repo path.
+      placeholder: "https://ottawamesh.ca/docs/install/router-setup"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: What needs correction?
+      options:
+        - Typo/grammar
+        - Broken link
+        - Outdated instructions
+        - Incorrect command/config
+        - Missing prerequisite/step
+        - Formatting/structure
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_text
+    attributes:
+      label: Current text/content
+      description: Paste the problematic snippet or summarize what’s wrong.
+      placeholder: "Example: Step 3 says to run 'meshctl init', but that command doesn't exist."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_fix
+    attributes:
+      label: Proposed fix
+      description: If you know the correct version, propose it here.
+      placeholder: "Replace 'meshctl init' with 'ncr init --mesh ottawa'."
+    validations:
+      required: false
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact / severity
+      description: How badly does this affect readers?
+      placeholder: "Users cannot complete installation without this step."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - label: Affects multiple pages
+        - label: Affects only this page
+        - label: Might require a broader restructure
+
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Screenshots / logs (optional)
+      description: Drag and drop images or paste snippets here.
+    validations:
+      required: false
