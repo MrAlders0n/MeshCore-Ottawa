@@ -1,3 +1,9 @@
+If you’d like to contribute or help improve the site, you have two options:
+
+- **Reach out to MrAlders0n on Discord** for quick questions or discussion  
+- **Follow the steps below** to request changes via GitHub  
+
+---
 
 # How to Request Changes to OttawaMesh.ca
 
