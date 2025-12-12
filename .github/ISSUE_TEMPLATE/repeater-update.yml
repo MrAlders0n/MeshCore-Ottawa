@@ -1,0 +1,150 @@
+
+name: 🛰️ Repeater Deployment Update
+description: Log additions, changes, maintenance, or decommissions related to Ottawa Mesh repeaters.
+title: "[Repeater] <site / node / change summary>"
+labels:
+  - deployment
+  - area:docs
+  - repeaters
+  - needs-triage
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Target page:** https://ottawamesh.ca/deployment/repeaters/
+        Use this form to report changes for repeater nodes only (install, upgrade, config change, maintenance, decommission, link health).
+
+  - type: input
+    id: date
+    attributes:
+      label: Date of change
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Location / site
+      description: Neighborhood and site descriptor. Avoid exact GPS unless required (privacy-first).
+      placeholder: "Centretown rooftop A"
+    validations:
+      required: true
+
+  - type: input
+    id: repeater_id
+    attributes:
+      label: Repeater ID / name (if known)
+      description: Existing ID or new identifier used in docs (e.g., RPT-012).
+      placeholder: "RPT-012"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: change_type
+    attributes:
+      label: Change type
+      options:
+        - New repeater installed
+        - Repeater upgraded
+        - Repeater decommissioned
+        - Config change
+        - Link health issue
+        - Maintenance / inspection
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware / antenna
+      description: Router model, antenna type/gain, mounts, cable runs.
+      placeholder: |
+        - Router: GL.iNet AR750
+        - Antenna: 8 dBi panel
+        - Mount: chimney strap
+        - Cable: 5m coax
+    validations:
+      required: true
+
+  - type: textarea
+    id: firmware
+    attributes:
+      label: Firmware / software versions
+      description: Include versions for router firmware and any mesh-related software (e.g., NCRI/MeshCore components).
+      placeholder: |
+        - Firmware: OpenWrt 23.05.3
+        - Software: NCRI vX.Y (if applicable)
+    validations:
+      required: true
+
+  - type: textarea
+    id: config
+    attributes:
+      label: Config deltas
+      description: Summarize the configuration changes applied.
+      placeholder: |
+        - SSID: ottawa-mesh
+        - Channel: 6 (2.4 GHz) / 36 (5 GHz)
+        - TX power: 20 dBm
+        - VLANs: ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: link_metrics
+    attributes:
+      label: Link metrics / health
+      description: RSSI/SNR, throughput, latency, packet loss, neighbor list, hop count.
+      placeholder: |
+        - RSSI/SNR: -65 dBm / 28 dB
+        - Throughput: 85 Mbps (TCP)
+        - Latency: 7 ms avg
+        - Packet loss: <1%
+        - Neighbors: RPT-003, GW-001
+    validations:
+      required: false
+
+  - type: textarea
+    id: actions_taken
+    attributes:
+      label: Actions taken
+      description: Installation steps, tuning, maintenance performed, and outcomes.
+      placeholder: |
+        - Mounted panel antenna facing NE
+        - Adjusted channel width 20 MHz -> 40 MHz
+        - Rebooted, validated neighbor discovery
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence / attachments
+      description: Photos, logs, metrics snapshots, config diffs. Drag-and-drop supported.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: followup
+    attributes:
+      label: Follow-up required
+      options:
+        - label: Needs documentation update on https://ottawamesh.ca/deployment/repeaters/
+        - label: Needs troubleshooting
+        - label: Needs approval
+
+  - type: textarea
+    id: doc_notes
+    attributes:
+      label: Notes for updating the repeaters page (optional)
+      description: Provide text that can be copy-pasted into the repeaters page (e.g., a new entry or update details).
+      placeholder: |
+        - New entry for RPT-012:
+          - Location: Centretown rooftop A
+          - Hardware: ...
+          - Link metrics: ...
+    validations:
+      required: false
