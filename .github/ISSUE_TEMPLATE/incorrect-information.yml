@@ -1,0 +1,53 @@
+
+name: ❗ Incorrect Information
+description: Flag content that is factually incorrect or misleading.
+title: "[Docs] Incorrect Info: <page or topic>"
+labels:
+  - area:docs
+  - needs-triage
+  - incorrect-info
+assignees: []
+body:
+  - type: input
+    id: doc_url
+    attributes:
+      label: Documentation URL (or path)
+      placeholder: "https://ottawamesh.ca/docs/..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: claim
+    attributes:
+      label: The claim (quote or summary)
+      description: Paste the statement that is wrong.
+      placeholder: "MeshCore companions repeat packets; actual: MeshCore companions do not repeat packets."
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence / sources
+      description: Provide references, logs, outputs, or authoritative sources.
+      placeholder: "Meshcore spec sheet, config dump, or upstream docs link."
+    validations:
+      required: true
+
+  - type: textarea
+    id: correction
+    attributes:
+      label: Correct information
+      description: Provide the corrected statement.
+      placeholder: "MeshCore companions do not repeat packets."
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Describe how this misinfo affects deployments or readers.
+      placeholder: "Misleading; Security expectations; failed compatibility."
+    validations:
+      required: true
