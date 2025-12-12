@@ -25,8 +25,8 @@ Photos, technical notes, and installation details are provided for each site.
 
 <table>
   <tr>
-    <td><img src="../images/repeater-showcase-MAY_1.jpg" width="300"></td>
-    <td><img src="../images/repeater-showcase-MAY_2.jpg" width="300"></td>
+    <td><img src="../images/repeater-showcase-MAY_1.jpg" width="300" max-height: 360px object-fit: cover;></td>
+    <td><img src="../images/repeater-showcase-MAY_2.jpg" width="300" max-height: 360px object-fit: cover;></td>
   </tr>
 </table>
 
