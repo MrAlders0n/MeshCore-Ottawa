@@ -1,10 +1,10 @@
-# Welcome to National Capital Region Mesh
+# Welcome to Greater Ottawa Mesh Enthusiasts
 
 [**Join us on Discord**](https://discord.gg/WSyNd8SfNr)
 
 ## About the Community
 
-We’re a community of hobbyists, builders, and experimenters working together to create a decentralized long-range communications network across the National Capital Region.
+We’re a community of hobbyists, builders, and experimenters collaborating to build a decentralized long-range communications network across the National Capital Region in Eastern Ontario and Western Quebec.
 
 **MeshCore** runs on top of LoRa radios.  
 LoRa (Long Range) is a low-power, long-distance radio modulation ideal for community networks, sensors, emergency use, and experimentation.
