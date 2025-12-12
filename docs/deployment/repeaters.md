@@ -5,7 +5,6 @@
 
 This page lists all deployed and reserved repeater IDs in Ottawa, along with their current configurations.
 
-
 !!! note "If you notice anything that should be updated"
     If you notice anything that needs updating, please see our Contributing Guide. You can also reach out to MrAlders0n on Discord or MeshCore, or contact any of the Knowledge Curators on the Discord server for assistance.
 
