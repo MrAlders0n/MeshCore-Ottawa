@@ -66,10 +66,11 @@ With it, you can:
 
 It's the easiest way to get started before moving on to repeaters or solar builds.
 
-## About This Wiki
+## About This Website
 
-This wiki is maintained by the **Greater Ottawa Mesh Enthusiasts** and contains guides, hardware information, deployment notes, and community resources.
+This wiki is maintained by the Greater Ottawa Mesh Enthusiasts and contains guides, hardware information, deployment notes, and community resources.
 
-If you’d like to contribute or help improve the wiki, reach out to **MrAlders0n** on Discord — or submit changes directly on GitHub:
+If you’d like to contribute or help improve the site, please visit our **[Contributing](community/contributing.md)**:
 
-**GitHub:** [National Capital Region Mesh Repo](https://github.com/MrAlders0n/MeshCore-NCR)
+Thank you for helping keep Ottawa Mesh accurate and up to date!
+
