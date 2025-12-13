@@ -5,7 +5,7 @@ This setup does **not** require a Raspberry Pi, VM, or companion node.
 
 ## Overview
 
-This firmware was compiled from [agessaman/MeshCore (mqtt-bridge-implementation-dev)](https://github.com/agessaman/MeshCore/tree/mqtt-bridge-implementation-dev) to simplify setup for the community.
+This firmware was compiled from [agessaman/MeshCore (mqtt-bridge-implementation)](https://github.com/agessaman/MeshCore/tree/mqtt-bridge-implementation) to simplify setup for the community.
 
 * **Default Frequency:** USA/CAN recommended settings pre-configured  
 * **Role:** Repeater with repeat disabled (acts as a “silent repeater” for packet capture)
@@ -26,9 +26,13 @@ If you wish to run a full repeater, simply skip the step where repeat is disable
 * Wi-Fi network access  
 * Basic familiarity with the [MeshCore Flasher](https://flasher.meshcore.co.uk) tool  
 
+## Firmware Download
+
+**HeltekV3 MQTT Repeater Firmware 1.11.0** [Download Link](./firmware/Heltek_v3_Repeater_MQTT_Bridge_1.11.0.bin) **Tested on: 2025-12-13**&
+
 ## Firmware Installation
 
-1. **Download the HeltekV3 MQTT Repeater Firmware:** [Download Link](https://drive.proton.me/urls/BAM30S5MJ0#u6tQH2mlsoZR)  
+1. Download the HeltekV3 MQTT Repeater Firmware you wish to use
 
 2. Go to [MeshCore Flasher](https://flasher.meshcore.co.uk/) and click **HeltekV3**  
 
@@ -67,48 +71,78 @@ If you wish to run a full repeater, simply skip the step where repeat is disable
 
 6. Configure the repeater name using the Ottawa naming convention (```YOW_Location```):  
 
-    ```
+    ```bash
     set name YOW_OldBarrhaven
      ```
 
 7. Configure the IATA Code for MQTT ingestion
 
-    ```
+    ```bash
     set mqtt.iata YOW 
     ```
 
 8. Disable repeat:  
 
-    ```
+    ```bash
     set repeat off
      ```
 
 9. (Optional) Configure ownership info for the Packet Analyzer:  
-    You must have an account on [analyzer.letsme.sh](https://analyzer.letsme.sh/) (login uses MeshCore Forum authentication). 
+    You must have an account on [analyzer.letsme.sh](https://analyzer.letsme.sh/) (login uses MeshCore Forum authentication).
 
-     ```
+     ```bash
      set mqtt.owner <Companion-Public-Key>
      set mqtt.email <MeshCore-Fourm-Email-Address>
       ```
 
-## Configure Wi-Fi & Timezone
+## Configure Remaining Things
 
-1. Set Wi-Fi credentials: 
+1. Set Wi-Fi credentials:
 
-    ```
+    ```bash
     set wifi.ssid <WIFI-NETWORK-NAME>
     set wifi.pwd <WIFI-PASSWORD>
     ```
 
 2. Set timezone:  
 
-    ```
+    ```bash
     set timezone America/Toronto
     ```
 
-3. Reboot the device: 
+3. Configure the radio settings
 
+    ```bash
+   set radio 510.525,62.5,7,5
     ```
+
+4. Set the admin password
+
+    ```bash
+   set password <Admin Password>
+    ```
+
+5. Set the guest password
+
+    ```bash
+   set password.guest <Guest Password>
+    ```
+
+6. Set the device latitude
+
+    ```bash
+   set lat <Latitude>
+    ```
+
+7. Set the device longitude
+
+    ```bash
+   set long <Longitude>
+    ```
+
+8. Reboot the device:
+
+    ```bash
     reboot
     ```
 
